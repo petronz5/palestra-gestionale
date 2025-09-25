@@ -1,23 +1,21 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# dipendenze
+node_modules/
+frontend/node_modules/
+backend/node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# build / dist
+build/
+dist/
 
-# testing
-/coverage
-
-# production
-/build
-
-# misc
+# env & vari
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env
+*.env
+*.log
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# DB e file locali
+*.db
+backend/palestra.db
+
+# test/coverage
+coverage/
